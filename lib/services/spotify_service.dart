@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class SpotifyService {
-  static const String _clientId = 'f0d9a5f85ab34afd862fa742ed957d02';
-  static const String _clientSecret = '5e0b6a009deb4121995503f4b661419f';
+  static const String _clientId = f0d9a5f85ab34afd862fa742ed957d02;
+  static const String _clientSecret = 5e0b6a009deb4121995503f4b661419f;
 
   String? _accessToken;
   DateTime? _tokenExpiry;
